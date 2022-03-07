@@ -83,16 +83,38 @@ nav a{
     padding-bottom: 130px;
 }
 .bgimage {
-    background-image: image();
+    background: "IMAGE_main4banner.png"    
 }
-.bgimage img{
-    width: 100%;
-    position: absolute;
-    
-}
+
 .main4 {
-    overflow: hidden;
+    background: #000;
 }
-.title3 h1{
+.title3{
+    padding-top: 135px;    
+    text-align: center;
+    padding-bottom: 60px;
+}
+.block4title{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+}
+.block4 {
+    max-width: 585px;
+    border: 1px solid hsla(0, 0%, 100%, 0.3);
+    background-color: hsla(0, 0%, 100%, 0.3);
+    text-align:     ;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0 40px;
     
 }
+.block4title img {
+    width: 29px;
+    height: 29px;
+    padding-right: 20px;
+}
+
+
